@@ -1,0 +1,76 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+input {
+  outline: none;
+  box-shadow: none;
+}
+
+.wrapper {
+  padding: 8px;
+}
+
+.controls {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.controls > * {
+  margin-bottom: 8px;
+}
+
+.freetext {
+  width: 200px;
+  height: 38px;
+  margin-right: 5px;
+}
+
+.select-font {
+  width: 200px;
+  margin-right: 5px;
+}
+
+.rgb {
+  margin-right: 5px;
+}
+
+.rgb > input {
+  width: 55px;
+  height: 38px;
+}
+
+.position {
+  margin-right: 5px;
+}
+
+.position > input {
+  height: 38px;
+  width: 70px;
+}
+
+.size {
+  height: 38px;
+  width: 55px;
+}
+
+.button-row {
+  margin-top: 8px;
+}
+
+.button-row > button {
+  height: 38px;
+  line-height: 38px;
+  margin-right: 5px;
+}
+
+#canvas {
+  outline: 1px solid black;
+}

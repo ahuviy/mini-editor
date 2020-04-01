@@ -1,3 +1,13 @@
+## Running the App on a windows machine
+
+- Please make sure you have nodejs and npm installed.
+- Clone the repository to your computer.
+- Run npm install.
+- Run npm start.
+- Go to Chrome, localhost:3000 to see the app.
+
+--------------------
+
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
 Below you will find some information on how to perform common tasks.<br>
